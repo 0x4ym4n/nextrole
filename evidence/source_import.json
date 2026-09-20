@@ -1,0 +1,16 @@
+[
+  {
+    "source": "Arbeitnow",
+    "url": "https://www.arbeitnow.com/api/job-board-api",
+    "status": "ok",
+    "count": 100,
+    "sha256": "9b86b24a42e14ca7a09604a0a81fd4bf88c221b73ce0226e31c23a28ef33ce36"
+  },
+  {
+    "source": "Remotive",
+    "url": "https://remotive.com/api/remote-jobs?limit=100",
+    "status": "ok",
+    "count": 18,
+    "sha256": "e7478edc123a50ffa111d1906da277b546d36f88450fa9b8039c6316a9029f92"
+  }
+]

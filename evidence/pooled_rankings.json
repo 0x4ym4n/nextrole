@@ -1,0 +1,180 @@
+{
+  "q1": {
+    "query": "Software Engineer",
+    "modes": {
+      "exact": [
+        "c09ea75f5f079d5a",
+        "d04dcc85c22686c4",
+        "04871c4cad1672d0",
+        "ce755c58b2d69d81",
+        "365ac9a10db264aa"
+      ],
+      "semantic": [
+        "d04dcc85c22686c4",
+        "4d9d689b7c7e7444",
+        "17fb3b9bacc9602b",
+        "d4be3866782c2779",
+        "704754023dde960b",
+        "365ac9a10db264aa",
+        "2b2e42946916688f",
+        "d0028e182a338efd",
+        "48fd1952bd894c25",
+        "c06236fbfb9d6704"
+      ],
+      "hybrid": [
+        "c09ea75f5f079d5a",
+        "d04dcc85c22686c4",
+        "04871c4cad1672d0",
+        "ce755c58b2d69d81",
+        "365ac9a10db264aa",
+        "4d9d689b7c7e7444",
+        "17fb3b9bacc9602b",
+        "d4be3866782c2779",
+        "704754023dde960b",
+        "2b2e42946916688f"
+      ]
+    }
+  },
+  "q2": {
+    "query": "Data Analyst",
+    "modes": {
+      "exact": [],
+      "semantic": [
+        "2699d315b51ed845",
+        "58127cc3759776c8",
+        "9a1514774f6944b7",
+        "f2a404b068de78eb",
+        "6125155bd4273104",
+        "ee20825ad2579b95",
+        "50696e17d0e8dfc8",
+        "51ac1243563622be",
+        "545440c4edbbc71a",
+        "aaa9cceb7e39a834"
+      ],
+      "hybrid": [
+        "2699d315b51ed845",
+        "58127cc3759776c8",
+        "9a1514774f6944b7",
+        "f2a404b068de78eb",
+        "6125155bd4273104",
+        "ee20825ad2579b95",
+        "50696e17d0e8dfc8",
+        "51ac1243563622be",
+        "545440c4edbbc71a",
+        "aaa9cceb7e39a834"
+      ]
+    }
+  },
+  "q3": {
+    "query": "Product Designer",
+    "modes": {
+      "exact": [
+        "319cadfb1508f465"
+      ],
+      "semantic": [
+        "d4be3866782c2779",
+        "3928aec33dd474ab",
+        "2b2e42946916688f",
+        "096d51185335cc5c",
+        "dd16760ccf59d197",
+        "7f64433592eaf192",
+        "d0028e182a338efd",
+        "776c060401f429a2",
+        "4d9d689b7c7e7444",
+        "704754023dde960b"
+      ],
+      "hybrid": [
+        "319cadfb1508f465",
+        "d4be3866782c2779",
+        "3928aec33dd474ab",
+        "2b2e42946916688f",
+        "096d51185335cc5c",
+        "dd16760ccf59d197",
+        "7f64433592eaf192",
+        "d0028e182a338efd",
+        "776c060401f429a2",
+        "4d9d689b7c7e7444"
+      ]
+    }
+  },
+  "q4": {
+    "query": "Backend Developer",
+    "modes": {
+      "exact": [],
+      "semantic": [
+        "9f5dd2bd916f0dee",
+        "ce755c58b2d69d81",
+        "3c8b9c0a9e8a9d74",
+        "aaa9cceb7e39a834",
+        "69ec90fc381eca12",
+        "4d9d689b7c7e7444",
+        "17fb3b9bacc9602b"
+      ],
+      "hybrid": [
+        "9f5dd2bd916f0dee",
+        "ce755c58b2d69d81",
+        "3c8b9c0a9e8a9d74",
+        "aaa9cceb7e39a834",
+        "69ec90fc381eca12",
+        "4d9d689b7c7e7444",
+        "17fb3b9bacc9602b"
+      ]
+    }
+  },
+  "q5": {
+    "query": "مطور تطبيقات",
+    "modes": {
+      "exact": [],
+      "semantic": [
+        "6e5e8cd1ee99b6cf",
+        "aaa9cceb7e39a834",
+        "1b80eccb27957a9f",
+        "4d9d689b7c7e7444",
+        "5a17ad4ad6b78ad3",
+        "51ac1243563622be",
+        "9a89525ac5509e44",
+        "0c7047fb2ee122b5",
+        "692e622f18d2c5f7",
+        "aa9cb2d4b3322fa5"
+      ],
+      "hybrid": [
+        "6e5e8cd1ee99b6cf",
+        "aaa9cceb7e39a834",
+        "1b80eccb27957a9f",
+        "4d9d689b7c7e7444",
+        "5a17ad4ad6b78ad3",
+        "51ac1243563622be",
+        "9a89525ac5509e44",
+        "0c7047fb2ee122b5",
+        "692e622f18d2c5f7",
+        "aa9cb2d4b3322fa5"
+      ]
+    }
+  },
+  "q6": {
+    "query": "محلل بيانات",
+    "modes": {
+      "exact": [],
+      "semantic": [
+        "2699d315b51ed845",
+        "58127cc3759776c8",
+        "f2a404b068de78eb",
+        "6125155bd4273104",
+        "9a1514774f6944b7",
+        "51ac1243563622be",
+        "5f0c6b6478fee869",
+        "50696e17d0e8dfc8"
+      ],
+      "hybrid": [
+        "2699d315b51ed845",
+        "58127cc3759776c8",
+        "f2a404b068de78eb",
+        "6125155bd4273104",
+        "9a1514774f6944b7",
+        "51ac1243563622be",
+        "5f0c6b6478fee869",
+        "50696e17d0e8dfc8"
+      ]
+    }
+  }
+}
