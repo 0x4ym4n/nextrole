@@ -1,0 +1,91 @@
+{
+  "recorded_at": "2026-09-22T05:05:21.852969+00:00",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "checks": [
+    {
+      "check": "go-tests",
+      "command": [
+        "go",
+        "test",
+        "-race",
+        "-count=1",
+        "-json",
+        "./..."
+      ],
+      "exit_code": 0,
+      "duration_s": 2.582825249999587,
+      "log": "go-tests.log"
+    },
+    {
+      "check": "go-vet",
+      "command": [
+        "go",
+        "vet",
+        "./..."
+      ],
+      "exit_code": 0,
+      "duration_s": 0.6827676670000073,
+      "log": "go-vet.log"
+    },
+    {
+      "check": "go-benchmark",
+      "command": [
+        "go",
+        "test",
+        "-run",
+        "^$",
+        "-bench",
+        "BenchmarkRank10000",
+        "-benchmem",
+        "-count=1"
+      ],
+      "exit_code": 0,
+      "duration_s": 3.293036999999458,
+      "log": "go-benchmark.log"
+    },
+    {
+      "check": "web-types",
+      "command": [
+        "npm",
+        "run",
+        "typecheck"
+      ],
+      "exit_code": 0,
+      "duration_s": 1.0228299590016832,
+      "log": "web-types.log"
+    },
+    {
+      "check": "web-build",
+      "command": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "exit_code": 0,
+      "duration_s": 2.7285675829989486,
+      "log": "web-build.log"
+    },
+    {
+      "check": "flutter-analyze",
+      "command": [
+        "flutter",
+        "analyze"
+      ],
+      "exit_code": 0,
+      "duration_s": 3.9282408749968454,
+      "log": "flutter-analyze.log"
+    },
+    {
+      "check": "flutter-tests",
+      "command": [
+        "flutter",
+        "test",
+        "--reporter",
+        "json"
+      ],
+      "exit_code": 0,
+      "duration_s": 2.2989327079994837,
+      "log": "flutter-tests.log"
+    }
+  ]
+}
