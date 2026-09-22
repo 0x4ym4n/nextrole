@@ -1,0 +1,386 @@
+{
+  "recorded_at": "2026-09-22T05:02:06.533528+00:00",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "python": "3.11.16",
+  "live_corpus": {
+    "dataset": "public-feed-snapshot",
+    "dimension": 384,
+    "jobs": 118,
+    "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+    "semantic_configured": true,
+    "status": "ok",
+    "threshold": 0.4
+  },
+  "synthetic_retrieval": {
+    "evidence_type": "synthetic authored regression; not participant or real vacancy relevance evidence",
+    "model": {
+      "dataset": "synthetic-functional-fixtures",
+      "dimension": 384,
+      "jobs": 22,
+      "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+      "revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+      "semantic_configured": true,
+      "status": "ok",
+      "threshold": 0.4
+    },
+    "development": [
+      {
+        "threshold": 0.25,
+        "precision_at_5": 0.55,
+        "ndcg_at_10": 0.950700921733669,
+        "coverage": 1
+      },
+      {
+        "threshold": 0.35,
+        "precision_at_5": 0.55,
+        "ndcg_at_10": 0.9373253402705153,
+        "coverage": 1
+      },
+      {
+        "threshold": 0.4,
+        "precision_at_5": 0.5,
+        "ndcg_at_10": 0.8655573056806537,
+        "coverage": 1
+      },
+      {
+        "threshold": 0.45,
+        "precision_at_5": 0.5,
+        "ndcg_at_10": 0.8655573056806537,
+        "coverage": 1
+      },
+      {
+        "threshold": 0.55,
+        "precision_at_5": 0.45,
+        "ndcg_at_10": 0.8115734113441453,
+        "coverage": 1
+      },
+      {
+        "threshold": 0.65,
+        "precision_at_5": 0.2,
+        "ndcg_at_10": 0.504707907907405,
+        "coverage": 1
+      }
+    ],
+    "selected_threshold": 0.25,
+    "held_out": {
+      "exact": {
+        "per_query": [
+          {
+            "query": "Mobile Application Engineer",
+            "precision_at_5": 0.2,
+            "ndcg_at_10": 0.40301463303053875,
+            "coverage": 1,
+            "ids": [
+              "demo-002"
+            ]
+          },
+          {
+            "query": "Platform Engineer",
+            "precision_at_5": 0.2,
+            "ndcg_at_10": 0.6131471927654584,
+            "coverage": 1,
+            "ids": [
+              "demo-012"
+            ]
+          },
+          {
+            "query": "مطور تطبيقات",
+            "precision_at_5": 0.2,
+            "ndcg_at_10": 0.4318711546920674,
+            "coverage": 1,
+            "ids": [
+              "demo-019"
+            ]
+          },
+          {
+            "query": "محلل بيانات",
+            "precision_at_5": 0.2,
+            "ndcg_at_10": 0.4318711546920674,
+            "coverage": 1,
+            "ids": [
+              "demo-020"
+            ]
+          }
+        ],
+        "mean": {
+          "precision_at_5": 0.2,
+          "ndcg_at_10": 0.46997603379503294,
+          "coverage": 1
+        }
+      },
+      "semantic": {
+        "per_query": [
+          {
+            "query": "Mobile Application Engineer",
+            "precision_at_5": 1.0,
+            "ndcg_at_10": 1.0,
+            "coverage": 1,
+            "ids": [
+              "demo-002",
+              "demo-019",
+              "demo-001",
+              "demo-003",
+              "demo-004",
+              "demo-015",
+              "demo-012",
+              "demo-017",
+              "demo-021",
+              "demo-014",
+              "demo-006",
+              "demo-022",
+              "demo-010",
+              "demo-009",
+              "demo-008",
+              "demo-007",
+              "demo-013",
+              "demo-011"
+            ]
+          },
+          {
+            "query": "Platform Engineer",
+            "precision_at_5": 0.4,
+            "ndcg_at_10": 0.9197207891481876,
+            "coverage": 1,
+            "ids": [
+              "demo-012",
+              "demo-017",
+              "demo-013",
+              "demo-022",
+              "demo-006",
+              "demo-021",
+              "demo-015",
+              "demo-019",
+              "demo-002",
+              "demo-014",
+              "demo-001",
+              "demo-004",
+              "demo-007",
+              "demo-010",
+              "demo-005",
+              "demo-008",
+              "demo-011"
+            ]
+          },
+          {
+            "query": "مطور تطبيقات",
+            "precision_at_5": 0.6,
+            "ndcg_at_10": 0.9819829724843119,
+            "coverage": 1,
+            "ids": [
+              "demo-019",
+              "demo-002",
+              "demo-001",
+              "demo-015",
+              "demo-004",
+              "demo-014",
+              "demo-003",
+              "demo-012",
+              "demo-021",
+              "demo-010",
+              "demo-007",
+              "demo-013",
+              "demo-005",
+              "demo-006",
+              "demo-009",
+              "demo-008",
+              "demo-022"
+            ]
+          },
+          {
+            "query": "محلل بيانات",
+            "precision_at_5": 0.8,
+            "ndcg_at_10": 0.9828921171931015,
+            "coverage": 1,
+            "ids": [
+              "demo-020",
+              "demo-009",
+              "demo-011",
+              "demo-010",
+              "demo-016",
+              "demo-008",
+              "demo-021",
+              "demo-019"
+            ]
+          }
+        ],
+        "mean": {
+          "precision_at_5": 0.7,
+          "ndcg_at_10": 0.9711489697064002,
+          "coverage": 1
+        }
+      },
+      "hybrid": {
+        "per_query": [
+          {
+            "query": "Mobile Application Engineer",
+            "precision_at_5": 1.0,
+            "ndcg_at_10": 1.0,
+            "coverage": 1,
+            "ids": [
+              "demo-002",
+              "demo-019",
+              "demo-001",
+              "demo-003",
+              "demo-004",
+              "demo-015",
+              "demo-012",
+              "demo-017",
+              "demo-021",
+              "demo-014",
+              "demo-006",
+              "demo-022",
+              "demo-010",
+              "demo-009",
+              "demo-008",
+              "demo-007",
+              "demo-013",
+              "demo-011"
+            ]
+          },
+          {
+            "query": "Platform Engineer",
+            "precision_at_5": 0.4,
+            "ndcg_at_10": 0.9197207891481876,
+            "coverage": 1,
+            "ids": [
+              "demo-012",
+              "demo-017",
+              "demo-013",
+              "demo-022",
+              "demo-006",
+              "demo-021",
+              "demo-015",
+              "demo-019",
+              "demo-002",
+              "demo-014",
+              "demo-001",
+              "demo-004",
+              "demo-007",
+              "demo-010",
+              "demo-005",
+              "demo-008",
+              "demo-011"
+            ]
+          },
+          {
+            "query": "مطور تطبيقات",
+            "precision_at_5": 0.6,
+            "ndcg_at_10": 0.9819829724843119,
+            "coverage": 1,
+            "ids": [
+              "demo-019",
+              "demo-002",
+              "demo-001",
+              "demo-015",
+              "demo-004",
+              "demo-014",
+              "demo-003",
+              "demo-012",
+              "demo-021",
+              "demo-010",
+              "demo-007",
+              "demo-013",
+              "demo-005",
+              "demo-006",
+              "demo-009",
+              "demo-008",
+              "demo-022"
+            ]
+          },
+          {
+            "query": "محلل بيانات",
+            "precision_at_5": 0.8,
+            "ndcg_at_10": 0.9828921171931015,
+            "coverage": 1,
+            "ids": [
+              "demo-020",
+              "demo-009",
+              "demo-011",
+              "demo-010",
+              "demo-016",
+              "demo-008",
+              "demo-021",
+              "demo-019"
+            ]
+          }
+        ],
+        "mean": {
+          "precision_at_5": 0.7,
+          "ndcg_at_10": 0.9711489697064002,
+          "coverage": 1
+        }
+      }
+    },
+    "case_definition_sha256": "95c4f57fc19b88ad8cdc98513aad91127683627ec206a6b2ca2233df54f68dd6"
+  },
+  "latency": [
+    {
+      "mode": "exact",
+      "concurrency": 1,
+      "requests": 60,
+      "warmup_per_mode": 3,
+      "p50_ms": 0.7988750003278255,
+      "p95_ms": 1.2704589971690439,
+      "max_ms": 2.0127080024394672,
+      "errors": 0
+    },
+    {
+      "mode": "exact",
+      "concurrency": 4,
+      "requests": 60,
+      "warmup_per_mode": 3,
+      "p50_ms": 2.0972084985260153,
+      "p95_ms": 3.652375002275221,
+      "max_ms": 3.879249998135492,
+      "errors": 0
+    },
+    {
+      "mode": "semantic",
+      "concurrency": 1,
+      "requests": 60,
+      "warmup_per_mode": 3,
+      "p50_ms": 8.413207999183214,
+      "p95_ms": 9.000875001220265,
+      "max_ms": 9.259166999981971,
+      "errors": 0
+    },
+    {
+      "mode": "semantic",
+      "concurrency": 4,
+      "requests": 60,
+      "warmup_per_mode": 3,
+      "p50_ms": 26.975937000315753,
+      "p95_ms": 29.587584002001677,
+      "max_ms": 32.44395799993072,
+      "errors": 0
+    },
+    {
+      "mode": "hybrid",
+      "concurrency": 1,
+      "requests": 60,
+      "warmup_per_mode": 3,
+      "p50_ms": 8.239666500230669,
+      "p95_ms": 9.017333999508992,
+      "max_ms": 9.184750000713393,
+      "errors": 0
+    },
+    {
+      "mode": "hybrid",
+      "concurrency": 4,
+      "requests": 60,
+      "warmup_per_mode": 3,
+      "p50_ms": 26.879437498791958,
+      "p95_ms": 28.428458001144463,
+      "max_ms": 29.215124999609543,
+      "errors": 0
+    }
+  ],
+  "human_pool_rows": 59,
+  "limitations": [
+    "Single machine; loopback network; local CPU encoder; no real network or production concurrency claim.",
+    "Synthetic test queries share occupational domains with development; this is not independent real-world relevance evidence.",
+    "Public-feed sample is convenience-based and predominantly European/international, not a representative MENA sample.",
+    "Human judgement pool remains unlabelled; no user study has been conducted."
+  ]
+}
