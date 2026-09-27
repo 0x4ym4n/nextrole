@@ -1,16 +1,37 @@
 [
   {
     "source": "Arbeitnow",
-    "url": "https://www.arbeitnow.com/api/job-board-api",
+    "url": "https://www.arbeitnow.com/api/job-board-api?page=1",
     "status": "ok",
-    "count": 100,
-    "sha256": "9b86b24a42e14ca7a09604a0a81fd4bf88c221b73ce0226e31c23a28ef33ce36"
+    "count": 850,
+    "sha256": "7d99befa3f0f195413ae56126f0f4148fb590ff0e576ff85f67317f4296c941e"
+  },
+  {
+    "source": "Arbeitnow",
+    "url": "https://www.arbeitnow.com/api/job-board-api?page=2",
+    "status": "ok",
+    "count": 850,
+    "sha256": "aedc0e0157b6d6fcddeb034ff43568f1f28eadb05a2667a291ee520d6224cfbe"
+  },
+  {
+    "source": "Arbeitnow",
+    "url": "https://www.arbeitnow.com/api/job-board-api?page=3",
+    "status": "ok",
+    "count": 850,
+    "sha256": "e54d5af5c1d7c7483e50a22813589a5220832796721747ba7b6a2ffca2dd706e"
+  },
+  {
+    "source": "Arbeitnow",
+    "url": "https://www.arbeitnow.com/api/job-board-api?page=4",
+    "status": "ok",
+    "count": 850,
+    "sha256": "fcc266da867bac04e5946917a84c21722615e399385740095d57ae7b8090c70a"
   },
   {
     "source": "Remotive",
-    "url": "https://remotive.com/api/remote-jobs?limit=100",
+    "url": "https://remotive.com/api/remote-jobs?limit=1000",
     "status": "ok",
     "count": 18,
-    "sha256": "e7478edc123a50ffa111d1906da277b546d36f88450fa9b8039c6316a9029f92"
+    "sha256": "437fe22a8cdf07bbd088ae346c268916734670db803c45ffc66383d0831e0eaa"
   }
 ]

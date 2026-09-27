@@ -28,7 +28,8 @@ def iso(value):
 
 def collect():
     jobs, status = [], []
-    feeds = [('Arbeitnow', 'https://www.arbeitnow.com/api/job-board-api'), ('Remotive', 'https://remotive.com/api/remote-jobs?limit=100')]
+    feeds = ([('Arbeitnow', f'https://www.arbeitnow.com/api/job-board-api?page={page}') for page in range(1, 5)]
+             + [('Remotive', 'https://remotive.com/api/remote-jobs?limit=1000')])
     for name, url in feeds:
         try:
             response = requests.get(url, timeout=45, headers={'User-Agent': 'NextRole academic prototype/1.0'})
@@ -36,12 +37,14 @@ def collect():
             payload = response.json()
             rows = payload['data'] if name == 'Arbeitnow' else payload['jobs']
             count = 0
-            for row in rows[:100]:
+            seen = set()
+            for row in rows:
                 description = clean(row.get('description', ''))[:6000]
                 title = clean(row['title'])
                 job_url = row['url']
-                if not job_url.startswith('https://'):
+                if not job_url.startswith('https://') or job_url in seen:
                     continue
+                seen.add(job_url)
                 job_type = row.get('job_type', '')
                 if job_type not in ['full_time', 'part_time', 'contract', 'internship']:
                     job_type = ''
